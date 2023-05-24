@@ -32,7 +32,9 @@
   - Colors in the initial code are there just to help you recognize the sections in the preview; you can modify them as you wish, as they are not assessed.
 
 - Examples
+
   - Your final result should look like the following image:
+
     ![final result](src/assets/readme/final_result.png)
 
 ```css
