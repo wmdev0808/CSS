@@ -67,3 +67,26 @@
   - 6. Start using Tailwind in your project
 
     - Start using Tailwind’s utility classes to style your content.
+
+## 02. Editor Setup
+
+- IntelliSense for VS Code
+
+- Automatic class sorting with Prettier
+
+  - We maintain an official [Prettier plugin](https://github.com/tailwindlabs/prettier-plugin-tailwindcss) for Tailwind CSS that automatically sorts your classes following our recommended class order.
+
+    - Installation
+
+      ```
+      npm install -D prettier prettier-plugin-tailwindcss
+      ```
+
+      - .prettierrc.json
+
+        ```json
+        {
+          "pluginSearchDirs": ["./node_modules"],
+          "plugins": ["prettier-plugin-tailwindcss"]
+        }
+        ```
